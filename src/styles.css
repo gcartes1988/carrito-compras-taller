@@ -1,0 +1,62 @@
+
+body{
+    background-color: #fff;
+
+}.container {
+  max-width: 900px;
+}
+
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.list-group-item {
+    text-align: left;
+    border: none;
+    padding: 20px 0 20px 0;
+  }
+
+  .producto-imagen {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+/* Boton estilo Boostrap: Color imagenes de referencia */
+
+  .btn-purple {  
+    color: #fff;
+    background-color: #6767FF;
+    border-color: #6767FF;
+  }
+  
+  .btn-purple:hover {
+    color: #fff;
+    background-color: #5151E5;
+    border-color: #4343c4;
+  }
+  
+  .btn-purple:active {
+    color: #fff !important; 
+    background-color: #5151E5 !important; 
+    border-color: #4343c4 !important; 
+    box-shadow: none; 
+  }
+  
+  .btn-purple:focus {
+    outline: none;
+    background-color: #5151E5;
+    box-shadow: 0 0 0 0.2rem rgba(103, 103, 255, 0.5);
+  }
+  
+  .btn-purple:disabled {
+    opacity: 0.65;
+    background-color: #6767FF;
+    border-color: #6767FF;
+    pointer-events: none;
+  }
+  
+  
